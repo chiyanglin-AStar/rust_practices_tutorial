@@ -1,5 +1,6 @@
 # major reference 
 
+https://www.tutorialspoint.com/rust/index.htm
 
 
 # rust app list 
