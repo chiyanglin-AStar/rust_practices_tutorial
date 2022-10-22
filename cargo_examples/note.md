@@ -1,9 +1,13 @@
 # Cargo explain 
 
-$ cargo new grrs
+## Cargo usage
+
+cargo new grrs
      Created binary (application) `grrs` package
-$ cd grrs/
-$ cargo run
+
+cd grrs/
+
+cargo run
    Compiling grrs v0.1.0 (/Users/pascal/code/grrs)
     Finished dev [unoptimized + debuginfo] target(s) in 0.70s
      Running `target/debug/grrs`
@@ -16,36 +20,18 @@ Cargo is the package manager for RUST. This acts like a tool and manages Rust pr
 
 Some commonly used cargo commands are listed in the table below −
 
-Sr.No	Command & Description
-1	
-cargo build
+Sr.No	      Command & Description
+1	         cargo build     Compiles the current project.
 
-Compiles the current project.
+2	         cargo check     Analyzes the current project and report errors, but don't build object files.
 
-2	
-cargo check
+3	         cargo run      Builds and executes src/main.rs.
 
-Analyzes the current project and report errors, but don't build object files.
+4	         cargo clean    Removes the target directory.
 
-3	
-cargo run
+5           cargo update   Updates dependencies listed in Cargo.lock.
 
-Builds and executes src/main.rs.
-
-4	
-cargo clean
-
-Removes the target directory.
-
-5	
-cargo update
-
-Updates dependencies listed in Cargo.lock.
-
-6	
-cargo new
-
-Creates a new cargo project.
+6	         cargo new       Creates a new cargo project.
 
 Cargo helps to download third party libraries. Therefore, it acts like a package manager. You can also build your own libraries. Cargo is installed by default when you install Rust.
 
@@ -70,6 +56,7 @@ guess-game-app/
    -->Cargo.toml
    -->src/
       main.rs
+
 The cargo new command is used to create a crate. The --bin flag indicates that the crate being created is a binary crate. Public crates are stored in a central repository called crates.io https://crates.io/.
 
 Step 2 - Include references to external libraries
