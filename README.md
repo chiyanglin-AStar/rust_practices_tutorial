@@ -1,3 +1,13 @@
+# Rust important reference 
+
+
+https://askeing.github.io/rust-book/README.html
+
+https://opensourcedoc.com/rust-programming/
+
+## Rust in Linux Kernel 
+https://hackmd.io/@linD026/rust-in-linux-organize
+
 # Gitpod Rust Tutorial 
 
 ref : https://www.tutorialspoint.com/rust/index.htm
