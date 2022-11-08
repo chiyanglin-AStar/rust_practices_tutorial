@@ -5,6 +5,8 @@ https://askeing.github.io/rust-book/README.html
 
 https://opensourcedoc.com/rust-programming/
 
+https://github.com/rust-lang/rust-by-example
+
 ## Rust in Linux Kernel 
 https://hackmd.io/@linD026/rust-in-linux-organize
 
