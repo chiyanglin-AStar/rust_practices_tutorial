@@ -36,3 +36,5 @@ ref : https://doc.rust-lang.org/stable/rust-by-example/
  vector_iterator.rs
  vector.rs
  while.rs
+
+##  Rust -- Smart Compiler and Error propagation 

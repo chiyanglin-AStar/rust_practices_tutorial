@@ -25,4 +25,5 @@ rocket = { git = "https://github.com/SergioBenitez/Rocket", tag = "v0.3.2" }
 // 04. Get a specific revision (on master or any branch, according to rev)
 rocket = { git = "https://github.com/SergioBenitez/Rocket", rev = "8183f636305cef4adaa9525506c33cbea72d1745" }
 
-
+## crate.io  example 
+cargo new test_crate_hello_world
