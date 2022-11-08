@@ -27,3 +27,4 @@ tasks:
     - init: >
         cargo install --path . &&
         cargo test 
+    command: sudo apt-get install tree 
