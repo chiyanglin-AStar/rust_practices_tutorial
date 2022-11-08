@@ -25,5 +25,5 @@ github:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
     - init: echo 'this is Rust practics ' # runs during prebuild
-      command: echo 'arm linux kernel build tutorial' && sudo apt-get install tree && cargo install --path . && cargo test
+      command: echo 'rust tutorial' && sudo apt-get install tree && cargo install --path . && cargo test
      
