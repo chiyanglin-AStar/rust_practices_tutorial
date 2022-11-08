@@ -1,8 +1,0 @@
-[package]
-
-name = "big_number"
-version = "0.0.1"
-authors = [ "Chiyang Lin<chiyanglin@gmail.com" ]
-
-[dependencies]
-bignumber = "0.0.14"
