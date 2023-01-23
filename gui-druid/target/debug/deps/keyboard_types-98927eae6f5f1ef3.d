@@ -1,0 +1,12 @@
+/workspace/rust_practices_tutorial/gui-druid/target/debug/deps/keyboard_types-98927eae6f5f1ef3.rmeta: /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/lib.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/code.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/key.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/location.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/modifiers.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/shortcuts.rs
+
+/workspace/rust_practices_tutorial/gui-druid/target/debug/deps/libkeyboard_types-98927eae6f5f1ef3.rlib: /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/lib.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/code.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/key.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/location.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/modifiers.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/shortcuts.rs
+
+/workspace/rust_practices_tutorial/gui-druid/target/debug/deps/keyboard_types-98927eae6f5f1ef3.d: /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/lib.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/code.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/key.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/location.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/modifiers.rs /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/shortcuts.rs
+
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/lib.rs:
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/code.rs:
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/key.rs:
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/location.rs:
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/modifiers.rs:
+/workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/keyboard-types-0.5.0/src/shortcuts.rs:
