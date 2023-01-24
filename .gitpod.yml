@@ -3,14 +3,14 @@ image:
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
 ports:
-    - port: 3000   
-        onOpen: open-preview
+    - port: 3000
+      onOpen: open-preview
     - port: 6080
-        onOpen: open-preview
+      onOpen: open-preview
     - port: 5900
-        onOpen: ignore
+      onOpen: ignore
     - port: 35900
-        onOpen: ignore
+      onOpen: ignore
         
 github:
     prebuilds:
