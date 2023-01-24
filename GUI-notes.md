@@ -9,6 +9,10 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 
 	sudo apt-get install -y libsdl-pango-dev
 
+	sudo apt-get install -y libpango-1.0-0
+
+	sudo apt-get install librust-gdk-sys-dev
+
 	cargo new GUI-rust-ui-druid
 
 	cd GUI-rust-ui-druid
@@ -85,3 +89,11 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 	cargo add gtk --features=v3_16
 
 	cargo add gio --features=v2_44
+
+#  sciter
+
+cargo new gui-sciter
+
+cd rust-ui-sciter
+
+cargo add sciter-rs
