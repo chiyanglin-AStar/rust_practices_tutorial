@@ -1,28 +1,15 @@
 # Rust GUI Notes 
-ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl
+### ref: 
+https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl
 
 ## druid 
 
-	sudo apt-get install libglib2.0-dev
+	cargo new gui-druid
 
-	sudo apt-get install libcairo2-dev
-
-	sudo apt-get install -y libsdl-pango-dev
-
-	sudo apt-get install -y libpango-1.0-0
-
-	sudo apt-get install librust-gdk-sys-dev
-
-	cargo new GUI-rust-ui-druid
-
-	cd GUI-rust-ui-druid
+	cd gui-druid
 
 	cargo add druid
-
-	cargo add pango-sys
-
-	cargo add atk
-
+	
 ### main.rs sample code
 
 	use druid::widget::{Button, Flex, Label};
@@ -72,28 +59,78 @@ ref: https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-
 			.with_child(flex)
 	}
 
-## fltk 
+## fltk 2023 fail
 
-	cargo new rust-ui-fltk
+	cargo new gui-fltk
 
-	cd rust-ui-fltk
+	cd gui-fltk
 
 	cargo add fltk
 
-## gtk cd ..
+### main.rs sample code 
+
+	use fltk::{app::*, button::*, frame::*, window::*};
+
+	fn main() {
+		let app = App::default();
+		let mut wind = Window::new(100, 100, 400, 300, "Hello, FLTK!");
+		let mut frame = Frame::new(0, 0, 400, 200, "Boring label");
+		let mut but = Button::new(160, 210, 80, 40, "Click me!");
+
+		wind.end();
+		wind.show();
+
+		// Remember: Callbacks after initializing the interface
+		but.set_callback(move || frame.set_label("Hello, World!"));
+
+		app.run().unwrap();
+	}
+
+## gtk - 2023 01 fail 
 
 	cargo new gui-gtk
 
 	cd gui-gtk
 
-	cargo add gtk --features=v3_16
+	cargo add gtk 
 
-	cargo add gio --features=v2_44
+	cargo add gio 
 
-#  sciter
+#  iced 2023 01 fail
 
-cargo new gui-sciter
+	cargo new gui-iced
 
-cd rust-ui-sciter
+	cd gui-iced
 
-cargo add sciter-rs
+	cargo add iced --git "https://github.com/hecrj/iced.git" --features glow
+
+#  sciter 2023 fail
+	sudo apt-get install freeglut3-dev
+
+	wget https://sciter.com/sdk/sciter-sdk.zip
+
+	mkdir sciter-sdk
+	
+	cd sciter-sdk 
+
+	unzip ../sciter-sdk.zip
+
+	cd sciter-sdk/build.linux/desktop
+
+	make config=debug_x64 (need to mark sciter-sqlite.make in Makefile )
+
+	cp ../sciter-sdk/bin.lnx/x64/libsciter-gtk.so .
+
+	cargo new gui-sciter
+
+	cd gui-sciter
+
+	cargo add sciter-rs
+
+# IUI - 2023 01 fail
+
+	cargo new gui-iui
+
+	cd gui-iui
+	
+	cargo add iui
