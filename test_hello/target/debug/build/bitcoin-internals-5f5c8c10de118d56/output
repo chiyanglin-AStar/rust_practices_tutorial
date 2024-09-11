@@ -1,0 +1,11 @@
+cargo:rustc-cfg=rust_v_1_56
+cargo:rustc-cfg=rust_v_1_57
+cargo:rustc-cfg=rust_v_1_58
+cargo:rustc-cfg=rust_v_1_59
+cargo:rustc-cfg=rust_v_1_60
+cargo:rustc-cfg=rust_v_1_61
+cargo:rustc-cfg=rust_v_1_62
+cargo:rustc-cfg=rust_v_1_63
+cargo:rustc-cfg=rust_v_1_64
+cargo:rustc-cfg=rust_v_1_65
+cargo:rustc-cfg=rust_v_1_66
