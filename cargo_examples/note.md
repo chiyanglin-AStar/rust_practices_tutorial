@@ -39,9 +39,11 @@ Cargo helps to download third party libraries. Therefore, it acts like a package
 To create a new cargo project, we can use the commands given below.
 
 #### Create a binary crate
+     
      cargo new project_name --bin
 
 #### Create a library crate
+     
      cargo new project_name --lib
      
 To check the current version of cargo, execute the following command −
