@@ -2,16 +2,16 @@
 
 ## Cargo usage
 
-cargo new grrs
-     Created binary (application) `grrs` package
+     cargo new grrs
+          Created binary (application) `grrs` package
 
-cd grrs/
+     cd grrs/
 
-cargo run
-   Compiling grrs v0.1.0 (/Users/pascal/code/grrs)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.70s
-     Running `target/debug/grrs`
-Hello, world!
+     cargo run
+        Compiling grrs v0.1.0 (/Users/pascal/code/grrs)
+         Finished dev [unoptimized + debuginfo] target(s) in 0.70s
+          Running `target/debug/grrs`
+     Hello, world!
 
 
 ##  Cargo 
@@ -21,17 +21,18 @@ Cargo is the package manager for RUST. This acts like a tool and manages Rust pr
 Some commonly used cargo commands are listed in the table below −
 
 Sr.No	      Command & Description
-1	         cargo build     Compiles the current project.
 
-2	         cargo check     Analyzes the current project and report errors, but don't build object files.
-
-3	         cargo run      Builds and executes src/main.rs.
-
-4	         cargo clean    Removes the target directory.
-
-5           cargo update   Updates dependencies listed in Cargo.lock.
-
-6	         cargo new       Creates a new cargo project.
+     1	         cargo build     Compiles the current project.
+     
+     2	         cargo check     Analyzes the current project and report errors, but don't build object files.
+     
+     3	         cargo run      Builds and executes src/main.rs.
+     
+     4	         cargo clean    Removes the target directory.
+     
+     5           cargo update   Updates dependencies listed in Cargo.lock.
+     
+     6	         cargo new       Creates a new cargo project.
 
 Cargo helps to download third party libraries. Therefore, it acts like a package manager. You can also build your own libraries. Cargo is installed by default when you install Rust.
 
