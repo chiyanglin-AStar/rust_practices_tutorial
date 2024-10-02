@@ -1,11 +1,13 @@
 # Rust important reference 
 
 
-https://askeing.github.io/rust-book/README.html
+[Rust 程式語言](https://askeing.github.io/rust-book/README.html)
 
-https://opensourcedoc.com/rust-programming/
+[[Rust] 程式設計教學](https://opensourcedoc.com/rust-programming/)
 
-https://github.com/rust-lang/rust-by-example
+[rust-by-example](https://github.com/rust-lang/rust-by-example)
+
+[Comprehensive Rust](https://google.github.io/comprehensive-rust/zh-TW/)
 
 ## Rust in Linux Kernel 
 https://hackmd.io/@linD026/rust-in-linux-organize
