@@ -7,6 +7,7 @@
 
 -[How to read an integer from stdin](https://users.rust-lang.org/t/how-to-read-an-integer-from-stdin/57538/17)
 
+Example:
 
     fn main(){
     let cmd_line = std::env::args();
@@ -28,6 +29,8 @@
     }
     println!("sum is {}",sum);
     }
+
+Example:
 
     fn main(){
         let mut line = String::new();
