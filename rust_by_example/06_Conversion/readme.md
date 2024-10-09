@@ -7,6 +7,10 @@
 
 -[How to read an integer from stdin](https://users.rust-lang.org/t/how-to-read-an-integer-from-stdin/57538/17)
 
+- [float-number-from-the-user](https://www.includehelp.com/rust/read-a-float-number-from-the-user.aspx)
+
+- [float-number-from-the-user](https://stackoverflow.com/questions/58567077/cant-parse-string-from-stdin-to-floating-point-rust)
+
 Example:
 
     fn main(){
