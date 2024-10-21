@@ -1,3 +1,9 @@
+/*
+
+$ rustc raii.rs && valgrind ./raii
+
+*/
+
 // raii.rs
 fn create_box() {
     // Allocate an integer on the heap
