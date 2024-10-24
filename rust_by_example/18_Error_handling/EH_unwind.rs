@@ -1,3 +1,6 @@
+/*
+    rustc  lemonade.rs -C panic=abort
+*/
 #[cfg(panic = "unwind")]
 fn ah() {
     println!("Spit it out!!!!");
