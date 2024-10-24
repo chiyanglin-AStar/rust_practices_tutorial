@@ -1,3 +1,6 @@
+/*
+    rustc  lemonade.rs -C panic=abort
+*/
 fn drink(beverage: &str) {
     // You shouldn't drink too much sugary beverages.
     if beverage == "lemonade" {
